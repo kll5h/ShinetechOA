@@ -3,9 +3,9 @@
   <groupId>com.mossle</groupId>
   <artifactId>lemon</artifactId>
   <version>1.7.1-SNAPSHOT</version>
-  <name>lemon</name>
+  <name>ShinetechOA</name>
   <packaging>war</packaging>
-  <description>Lemon is an OA.</description>
+  <description>Shinetech OA.</description>
   
   <inceptionYear>2016</inceptionYear>
   
@@ -1054,7 +1054,7 @@
             <scanIntervalSeconds>10</scanIntervalSeconds>
 -->
             <webDefaultXml>webdefault.xml</webDefaultXml>
-            <webAppSourceDirectory>webapp</webAppSourceDirectory>
+            <webAppSourceDirectory>webapp</webAppSourceDirectory><contextPath>/oa</contextPath>
           </configuration>
         </plugin>
         <plugin>
@@ -1326,7 +1326,7 @@
   </reporting>
 
   <properties>
-    <java.version>1.6</java.version>
+    <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <tagBase>svn://localhost/mossle/tags</tagBase>
@@ -1339,9 +1339,9 @@
     <commons-lang.version>3.4</commons-lang.version>
     <commons-fileupload.version>1.3.1</commons-fileupload.version>
 
-    <servlet.version>3.0.1</servlet.version>
-    <jsp.version>2.1</jsp.version>
-    <jetty.version>7.6.16.v20140903</jetty.version>
+    <servlet.version>3.1.0</servlet.version>
+    <jsp.version>2.2.1-b03</jsp.version>
+    <jetty.version>9.2.19.v20160908</jetty.version>
 
     <spring.version>4.0.9.RELEASE</spring.version>
     <!--

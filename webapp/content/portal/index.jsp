@@ -106,7 +106,7 @@
 </div>
 
     <div class="text-center">
-	  &copy;mossle
+	  &copy;Shinetechchina
     </div>
   </body>
 

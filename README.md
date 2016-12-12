@@ -1,8 +1,4 @@
-lemon
+Shinetech OA
 =====
 
-[![Build Status](https://travis-ci.org/xuhuisheng/lemon.png)](https://travis-ci.org/xuhuisheng/lemon)
-
-开源OA
-
-http://www.mossle.com/
+基于Lemon框架二次开发。
